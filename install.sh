@@ -8,3 +8,7 @@ cp .spectrmw.con /home/{$USER}/.spectrwm.conf
 
 cp baraction.sh /home/{$USER}/baraction.sh
 
+sudo systemctl enable lightdm
+
+sudo systemctl start ligthdm
+
