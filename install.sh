@@ -4,9 +4,11 @@ git clone https://github.com/alfathmuqoddas/fonts-cool
 
 sudo cp -r fonts-cool/* /usr/share/fonts
 
-cp .spectrmw.con /home/{$USER}/.spectrwm.conf
+cp .spectrmw.conf /home/{$USER}/.spectrwm.conf
 
 cp baraction.sh /home/{$USER}/baraction.sh
+
+sudo chmod u+x /home/{$USER}/baraction.sh
 
 sudo systemctl enable lightdm
 
