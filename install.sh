@@ -1,4 +1,6 @@
-sudo apt install spectrwm suckless-tools thunar xfce4-terminal lightdm ligthdm-gtk-greeter lxappearance xfce4-settings materia-gtk-theme pulseaudio xsecurelock
+#!/bin/sh
+
+sudo apt install spectrwm suckless-tools thunar xfce4-terminal lightdm lightdm-gtk-greeter lxappearance xfce4-settings materia-gtk-theme pulseaudio xsecurelock
 
 git clone https://github.com/alfathmuqoddas/fonts-cool
 
